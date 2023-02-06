@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Cookies alert popup - Easy Tutorials </title>
+<link rel="stylesheet" href="style.css">
+</head>
+    <body onload="showModal()">
+        <div id="modalbox">
+            <img src="images/cookies.png" class="cookies">
+            <p> We Use Cookies to Optimize User Expirience And Content</p>
+            <button type="button" onclick="closeModal()"> Accept</button>
+            <img src="images/close.png" class="close-icon" onclick="closeModal()">
+
+        </div>
+
+<script>
+    let modalBox = document.getElementById("modalbox");
+    function showmodal (){
+       setTimeout (() =>{ 
+        modalBox.style.display ="block";
+
+       }, 3000 )
+    }
+    function closeModal(){
+        modalbox.style.display = "none";
+    }
+
+   </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+</head>
+</html>
